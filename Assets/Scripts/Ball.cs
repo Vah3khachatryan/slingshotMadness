@@ -5,6 +5,7 @@ using TMPro;
 
 public class Ball : MonoBehaviour
 {
+    [SerializeField]
     Rigidbody rb;
     Vector3 startPosition;
     Vector3 endPosition;
@@ -33,7 +34,13 @@ public class Ball : MonoBehaviour
 
 
     void Awake(){
-        rb = GetComponent<Rigidbody>();
+
+
+       
+
+
+
+
         lt = GameObject.FindWithTag("Thrower").GetComponent<LaunchTrajectory>();
         multi = GetComponent<Multiplier>();
         multi.enabled = false;
@@ -55,6 +62,9 @@ public class Ball : MonoBehaviour
             }
             multiplyCount = int.Parse(text);
         }
+
+
+        
     }
 
     void FixedUpdate()
