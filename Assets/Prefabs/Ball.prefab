@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 697996064076318191}
   - component: {fileID: 697996064076318190}
   - component: {fileID: 562910069241865728}
-  - component: {fileID: 697996064076318186}
   - component: {fileID: 697996064076318184}
   - component: {fileID: 697996064076318185}
   m_Layer: 8
@@ -95,20 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b44acb49ec75f849914c598e522dde9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 697996064076318184}
   moveSpeed: 20
---- !u!114 &697996064076318186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 697996064076318188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d7e587c3b9d41043bd7f0914d7ac5ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ballPrefab: {fileID: 697996064076318188}
 --- !u!54 &697996064076318184
 Rigidbody:
   m_ObjectHideFlags: 0
